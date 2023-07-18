@@ -69,8 +69,6 @@ export default{
         return{
             showPassword:false,
              passwordFieldType:"password",
-
-             
              v$:useValidate(),
              email:"",
              password:"",
