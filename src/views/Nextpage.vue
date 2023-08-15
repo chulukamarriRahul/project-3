@@ -3,7 +3,7 @@
     <h1 class="heading">Login</h1>
 
     <form>
-        <label class="userName" for="userName">UserName*</label>
+        <label class="userName" for="userName">UserName*****</label>
         <input class="userName" v-model="email" placeholder="Enter User Name">
         <span v-if="v$.email.$error" class="mt5 text-danger">
                   {{ v$.email.$errors[0].$message }}
