@@ -8,7 +8,7 @@
         <span v-if="v$.email.$error" class="mt5 text-danger">
                   {{ v$.email.$errors[0].$message }}
                 </span>
-        <label class="userName" for="userName">Password*</label>
+        <label class="userName" for="userName">Password****</label>
         <input class="userName" placeholder="Enter Password" v-model="password" :type="passwordFieldType"  autocomplete="off">
 
         <span v-if="v$.password.$error" class="mt5 text-danger">
@@ -72,6 +72,7 @@ export default{
              v$:useValidate(),
              email:"",
              password:"",
+
 
         }
     },
